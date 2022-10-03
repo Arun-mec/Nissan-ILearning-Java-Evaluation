@@ -17,12 +17,15 @@ public class NissanAtmApp {
 		Scanner scanner = new Scanner(System.in);
 
 		try {
-
+			
+//			prompt input from the user
 			System.out.println("Welcome to atm services :)");
 			System.out.println("1. Customer services\n2. Banking services\n3. Exit\nPlease enter your selection");
 
 			switch (Integer.parseInt(scanner.next())) {
 			case 1:
+				// method to check the atm pin
+				
 //				if (CustomerDao.verifyCustomer()) {
 //					CustomerDao.customerServicesMenu();
 //				} else {

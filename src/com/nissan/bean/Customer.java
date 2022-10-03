@@ -44,15 +44,15 @@ public class Customer {
 	
 	// account number validation
 	public void setAccountNo(int accountNo) {
-		Pattern pattern = Pattern.compile("^[0-9]{0-6}");
-		
-		Matcher matcher = pattern.matcher(Integer.toString(accountNo));
-		
-		boolean finder = matcher.find();
-		
-		if (!finder) {
-			System.out.println("account number should not contain more than 6 numbers");
-		}
+//		Pattern pattern = Pattern.compile("^[0-9]{0-6}");
+//		
+//		Matcher matcher = pattern.matcher(Integer.toString(accountNo));
+//		
+//		boolean finder = matcher.find();
+//		
+//		if (!finder) {
+//			System.out.println("account number should not contain more than 6 numbers");
+//		}
 		this.accountNo = accountNo;
 	}
 
@@ -62,16 +62,16 @@ public class Customer {
 
 
 	public void setCustomerName(String customerName) {
-		Pattern pattern = Pattern.compile("^{0-30}");
-		
-		Matcher matcher = pattern.matcher(customerName);
-		
-		boolean finder = matcher.find();
-		
-		if (!finder) {
-			System.out.println("Customer name should not be contain more than 30 characters!");
-		}
-		
+//		Pattern pattern = Pattern.compile("^{0-30}");
+//		
+//		Matcher matcher = pattern.matcher(customerName);
+//		
+//		boolean finder = matcher.find();
+//		
+//		if (!finder) {
+//			System.out.println("Customer name should not be contain more than 30 characters!");
+//		}
+//		
 		this.customerName = customerName;
 	}
 
@@ -92,15 +92,15 @@ public class Customer {
 	
 	// account balance validation
 	public void setAccountBalance(double accountBalance) {
-		Pattern pattern = Pattern.compile("^[0-9]{0-6}");
-		
-		Matcher matcher = pattern.matcher(Double.toString(accountBalance));
-		
-		boolean finder = matcher.find();
-		
-		if (!finder) {
-			System.out.println("Invalid account balance!!");
-		}
+//		Pattern pattern = Pattern.compile("^[0-9]{0-6}");
+//		
+//		Matcher matcher = pattern.matcher(Double.toString(accountBalance));
+//		
+//		boolean finder = matcher.find();
+//		
+//		if (!finder) {
+//			System.out.println("Invalid account balance!!");
+//		}
 		this.accountBalance = accountBalance;
 	}
 
@@ -121,16 +121,16 @@ public class Customer {
 
 
 	public void setMobileNumber(int mobileNumber) {
-		Pattern pattern = Pattern.compile("^[0-9]{0-10}");
-		
-		Matcher matcher = pattern.matcher(Integer.toString(mobileNumber));
-		
-		boolean finder = matcher.find();
-		
-		if (!finder) {
-			System.out.println("Phone number should contain 10 digits!");
-		}
-		
+//		Pattern pattern = Pattern.compile("^[0-9]{0-10}");
+//		
+//		Matcher matcher = pattern.matcher(Integer.toString(mobileNumber));
+//		
+//		boolean finder = matcher.find();
+//		
+//		if (!finder) {
+//			System.out.println("Phone number should contain 10 digits!");
+//		}
+//		
 		this.mobileNumber = mobileNumber;
 	}
 
