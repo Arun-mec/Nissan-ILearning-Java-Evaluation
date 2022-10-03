@@ -1,0 +1,48 @@
+Development steps
+------------------
+--  Package bean
+customer account -> account no int random 6 digtis
+                        should be six digits and accept only integers - pattern matching
+                    customer name string
+                        max 30 characters
+                    account type
+                        options - savings and current using setter
+                    balance double
+                        should be numberic
+                    min balance double = 1000
+                    mobile number int
+                        10 digits pattern 
+                    emailId string
+                    atmPin random 4 digit number
+                        should give the user at the time of account creation
+                        (first) two digits of phone + last two digits of account
+-- package doe 
+
+** important 
+    ** always verify the customer using the atm atmPin
+
+    functions to be implemented
+
+    // customer side works
+    # Adding a customer
+    # verify a customer
+    # updating the customer details
+        ask for account number
+    # deleting the customer
+    # deposting money to customer account
+    # withdraw money from account
+    # show balance
+    # transfering money from one to another
+
+    // bank side works
+    # display the details of the customers
+    # display the details of a specific customer
+
+-- package app end user 
+    customer services
+    bank services
+
+    # enter the pin proceed
+
+
+			
